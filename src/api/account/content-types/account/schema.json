@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "accounts",
+  "info": {
+    "singularName": "account",
+    "pluralName": "accounts",
+    "displayName": "account"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "balance": {
+      "type": "float"
+    }
+  }
+}
